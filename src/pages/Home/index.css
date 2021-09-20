@@ -1,0 +1,21 @@
+.homePageContent {
+  padding: 0 20px;
+}
+
+.homePageContent table tbody tr:hover {
+  cursor: pointer;
+}
+.buttonAdd{
+  background-color: rgb(0, 0, 0);
+  color: greenyellow;
+}
+.buttonFilter{
+  background-color: rgb(0, 0, 0);
+  color: greenyellow;;
+  
+}
+.ButtonVerificar{
+  background-color: rgb(0, 0, 0);
+  color: greenyellow;;
+  
+}

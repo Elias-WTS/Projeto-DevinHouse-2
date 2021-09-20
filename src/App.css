@@ -1,0 +1,68 @@
+:root {
+  --primary: black ;
+  --header-background: var(--primary);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  text-align: left;
+}
+
+.App {
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.paper {
+  border-radius: 8px;
+  box-shadow: 1px 1px 15px #c1c1c1;
+  background-color: transparent;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.pageWrapper {
+  margin-top: 8px;
+}
+
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.inputWrapper label {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.inputWrapper input,
+.inputWrapper textarea {
+  display: block;
+  padding: 10px;
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+}

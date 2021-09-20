@@ -1,0 +1,30 @@
+.header {
+  color: white;
+  background-color: var(--header-background);
+  border-bottom: 1px solid #c1c1c1;
+  box-shadow: 1px 1px 5px #c1c1c1;
+}
+.header h1 {
+  margin-right: 60px;
+}
+
+.header .container,
+.header nav ul {
+  display: flex ;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.header nav ul li {
+  padding: 15px 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.header nav ul li:hover {
+  cursor: pointer;
+  background-color: greenyellow;
+  text-shadow: 1px 0px 5px #51515135;
+}
